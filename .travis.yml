@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+    - "7"
+branches:
+    only:
+        - master
+before_script:
+    - npm install -g firebase-tools
+script:
+    - echo "deploying"
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  on:
+    branch: master
+    tags: false
+  token:
+    secure: "ZhWcFL3Lwj+Wa+wPyVP7siSmzNibn5+stSvzAbQyWkCStHyK8rwgyvpND8eyidLWGUSil41w82xKSmVbanAxR+9XUm2lxvLMNuhse0LcyPb3TcBWg6SJaMllkE6aHnJ4PcR6W9t7p2Uh7rknkvGLoo36VSbbgqyOn6g0uIaiHAOXVTOfScxVAyhQDfFPTzw0CznMqIFVRyiyabVags2FPAUxYjNmaU6HV+lmZaAUegNlZX4b3Whb1T3upSH/Yvvz93shKQUl5C9zQTcfGgxGyk0BSqQQfgG1I788O8lW7hQfilXvuDO/wqigL/kxsm1EiH9HSUmyg/ZI6MbNDMj/kF0EmOQpnIutNbcji0zjyjJlyJGGx6ySUGJ6E3CAQZe0ces5CQr7oEATE7yjnEuZQ57EazkMdWO6YUn8t9iDwA3mrM/RR+3y+c1S7aN+N++U7vyY4lH60qHNwuB428IbZHkgd6HD/yoS8/JpnbICeo2awOBvXSQK+RNZ0tBPHDIarBKvSBa9GpCBu+LICQ95h9UHKhwEPl369KMWjNL3ZEXuOyTj18yxbf4fVw0VXgupCadYP1ySNr9/XPu2KhhDdU5Xhy19FX7hXggDBNR4Rej+O72x9ykz+i9zdgtuiwQXd9zwen1v9d8kUHiUOf5bL6JTsmBa2FrB/xqUkuGnRO0="
+  project: "sohan-site"
