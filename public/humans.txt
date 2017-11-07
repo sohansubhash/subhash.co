@@ -1,0 +1,43 @@
+ __    ___    _       __     _     
+( (`  / / \  | |_|   / /\   | |\ | 
+_)_)  \_\_/  |_| |  /_/--\  |_| \| 
+
+
+
+CONGRATULATIONS, you found my humans.txt file!
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site.
+
+
+# SUBHASH.CO TEAM
+
+This website was hand-crafted by Sohan Subhash.
+You can find him at @sohansubhash on twitter.
+
+# THANKS
+
+Skyler Ruesga		@sruesga on GitHub
+George Hutchinson	@GeoHutch on GitHub
+
+# ASSETS
+
+Apple Classic Icons - Musavvir Ahmed from the Noun Project
+Inconsolata Font - Raph Levien from Google Fonts
+Merriweather Font - Eben Sorkin from Google Fonts
+ 
+
+# TECHNOLOGY COLOPHON
+
+Firebase - Hosting and SSL certificate
+firebase.google.com
+
+Real Favicon Generator - Painless favicon support
+realfavicongenerator.net
+
+Google Fonts - Open source fonts
+fonts.google.com
+
+Noun Project - Icons for everything
+thenounproject.com
+
